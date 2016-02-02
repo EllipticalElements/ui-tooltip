@@ -1,7 +1,7 @@
 {
   "name": "ui-tooltip",
   "description": "tooltip web component",
-  "version":"1.0.0",
+  "version": "1.0.1",
   "main": "ui-tooltip.html",
   "authors": [
     "S. Francis"
@@ -48,5 +48,6 @@
     "sass-content-icons": "~1.0.4",
     "polymer": "Polymer/polymer#^1.0.0",
     "ui-behaviors": ">=0.1.1"
+
   }
 }
