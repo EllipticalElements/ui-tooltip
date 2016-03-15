@@ -40,9 +40,9 @@
             duration:{
                 value:250
             },
-            autoRemove:{
+            disableAutoRemove:{
                 type:Boolean,
-                value:true
+                value:false
             },
             topPlacement:{
                 value:0
@@ -54,7 +54,7 @@
 
         ready:function(){
             this.__events();
-            if(this.autoRemove) this._removeToolTipListener();
+            if(!this.disableAutoRemove) this._removeToolTipListener();
         }
 
     });

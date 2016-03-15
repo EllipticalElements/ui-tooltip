@@ -16,13 +16,15 @@ Elliptical(function(){
             animationIn:'none',
             animationOut:'none',
             duration:250,
-            autoRemove:true
+            disableAutoRemove:false,
+            topPlacement:0,
+            leftPlacement:0
 
         },
 
         _initElement: function(){
             this.__events();
-            if(this.autoRemove) this._removeToolTipListener();
+            if(!this.disableAutoRemove) this._removeToolTipListener();
         }
 
 
